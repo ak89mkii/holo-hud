@@ -35,6 +35,7 @@ Web UI for holographic display prototype.
 
 ## Stretch Goals:
 - AAUI want to see audio visualizer.
+- AAUI want face recogntion.
 
 ## Resources and References: 
 // https://stackoverflow.com/questions/61749407/flask-react-get-request-is-failing-but-post-request-is-successful
