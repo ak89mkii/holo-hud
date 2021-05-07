@@ -3,7 +3,7 @@
 ## Description:
 Web UI for holographic display prototype.
 
-## Deployment Link: 
+## Deployment Link: http://www.holo-hud.surge.sh
 
 ## User Stories:
 - AAUI want to see the time.
