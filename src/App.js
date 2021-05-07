@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React, { Component, createRef } from 'react'
 import './App.css';
+import './index.css';
+import 'semantic-ui-css/semantic.min.css';
+// import Title from './components/Title/Title.jsx'
+import Clock from './components/Clock/Clock.jsx'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    
+  }
+
+  render() {
+    return (
+      <div className="screen">
+        {/* <Title /> */}
+        <Clock />
+      </div>
+    )
+  }
 }
 
 export default App;
