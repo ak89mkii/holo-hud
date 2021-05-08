@@ -47,3 +47,4 @@ Web UI for holographic display prototype and speech assistant API.
 // https://developer.apple.com/download/more/
 // https://www.youtube.com/watch?v=x8xjj6cR9Nc
 // https://www.youtube.com/watch?v=Urx8Kj00zsI
+// https://pypi.org/project/PyAudio/
