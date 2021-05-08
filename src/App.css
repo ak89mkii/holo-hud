@@ -76,3 +76,12 @@
   margin: auto;
   color: black;
 }
+
+.activator {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  text-align: center;
+  width: 1000px; 
+  margin: auto;
+  color: black;
+}
