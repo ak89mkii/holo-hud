@@ -43,9 +43,11 @@ Web UI for holographic display prototype and speech assistant API.
 // https://stackoverflow.com/questions/61749407/flask-react-get-request-is-failing-but-post-request-is-successful
 // https://www.youtube.com/watch?v=06pWsB_hoD4
 // https://stackoverflow.com/questions/61749407/flask-react-get-request-is-failing-but-post-request-is-successful
+// https://stackoverflow.com/questions/44023583/css3-grey-image-to-blue-color-using-filters/44024010
 #### Back-End Resources:
 // https://developer.apple.com/download/more/
 // https://www.youtube.com/watch?v=x8xjj6cR9Nc
 // https://www.youtube.com/watch?v=Urx8Kj00zsI
 // https://pypi.org/project/PyAudio/
 // https://pynative.com/python-random-choice/
+// https://flask.palletsprojects.com/en/1.1.x/installation/

@@ -2,27 +2,27 @@ import React, { Component } from 'react';
 import { Button } from 'semantic-ui-react'
 import '../../App.css';
 
+// Revisit: Need to figure out "fetch" for Flask backend.
 class Activator extends Component {
-    constructor() {
-        super()
-this.state={time:new Date()}
+    state = {
+        
     }
 
-    currentTime()
-    {
-        this.setState({
-            time: new Date()
-        })
-    }
-    componentWillMount()
-    {
-setInterval(()=>this.currentTime(),1000)
-}
-  
+    componentDidMount() {
+        fetch('/activate')
+          .then(response => {
+            console.log(response.text())
+            this.setState({ snippets: response.data })
+          })
+          .catch(error=>{
+            console.log(error)
+          })
+      }
+
     render() {
         return (
             <div className="activator">
-                <Button inverted color='yellow' size='massive'>Activate</Button>
+                <Button onClick={this.componentDidMount} inverted color='yellow' size='massive'>Activate</Button>
             </div>
         )
     }
