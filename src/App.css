@@ -65,15 +65,27 @@
   color: white;
 }
 
-.photo {
+.frame {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   font-size: 100px;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+  width: 400px;
   margin: auto;
   color: black;
+}
+
+.photo {
+  width: 400px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color:#61dafb;
+  margin: auto;
+  color: black;
+  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 
 .activator {
