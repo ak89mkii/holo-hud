@@ -51,3 +51,4 @@ Web UI for holographic display prototype and speech assistant API.
 // https://pypi.org/project/PyAudio/
 // https://pynative.com/python-random-choice/
 // https://flask.palletsprojects.com/en/1.1.x/installation/
+// GUI gif image placeholder.

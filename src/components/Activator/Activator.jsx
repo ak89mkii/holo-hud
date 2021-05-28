@@ -22,7 +22,7 @@ class Activator extends Component {
     render() {
         return (
             <div className="activator">
-                <Button onClick={this.componentDidMount} inverted color='yellow' size='massive'>Activate</Button>
+                {/* <Button onClick={this.componentDidMount} inverted color='yellow' size='massive'>Activate</Button> */}
             </div>
         )
     }
